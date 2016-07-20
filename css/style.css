@@ -76,3 +76,32 @@ footer {
   border-top: 1px dashed grey;
 }
 /********************* /Footer ************************************/
+
+
+
+
+/******************************************RYAN***********************************************/
+
+
+.ryan {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.pryan {
+
+
+}
+
+.pix {
+  display: flex;
+  height:100%;
+  margin-top: 30px;
+}
+
+.pix img {
+  height: 80%;
+  width: 100%;
+  border: 4px dashed #BD4147;
+}
