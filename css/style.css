@@ -1,24 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding-top: 30px;
+}
 
 header{
-  width:100%;
-  display:flex;
-  justify-content: flex-end;
-  margin-right: 10px;
+  /*width:100%;*/
+  /*display: flex;*/
 }
 
-nav{
-    text-align: right;
+.navigation {
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
+
+.hr1 {
+  border: 1px grey dashed;
+  margin-top: 30px;
+  width: 65%;
+}
+
 
 .imgsection {
-  margin-top: 80px;
+  margin-top: 50px;
   margin-bottom: 80px;
   display: flex;
   justify-content: center;
 }
 
+.imgsection img{
+  width: 30%;
+}
+
+
 a {
-  padding-right: 40px;
+  font-size: 20px;
+  font-family: cursive;
+  padding-left: 60px;
 }
 
 nav a:hover {
@@ -32,5 +53,12 @@ nav a {
 
 h1 {
   text-align: center;
-  padding-top: 50px; 
+  padding-top: 50px;
+  font-family: cursive;
+}
+
+footer {
+  height: 80px;
+  background-color: lightgrey;
+  border-top: 1px dashed grey;
 }
