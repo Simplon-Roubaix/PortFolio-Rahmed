@@ -134,3 +134,32 @@ footer {
   width: 100%;
   border: 4px dashed #BD4147;
 }
+
+
+
+/*****************************************CONTACT*************************************/
+
+.none {
+  display: none;
+}
+
+.msg {
+  display: flex;
+  justify-content: center;
+  width: 100%
+}
+
+form {
+  flex-basis: 100px;
+}
+
+input {
+  width: 30%;
+}
+
+label {
+
+}
+
+
+/**************************************ABOUT******************************************/
