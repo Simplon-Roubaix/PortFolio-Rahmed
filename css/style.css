@@ -2,19 +2,10 @@
   box-sizing: border-box;
 }
 
+/********************* Body ************************************/
+
 body {
   padding-top: 30px;
-}
-
-header{
-  /*width:100%;*/
-  /*display: flex;*/
-}
-
-.navigation {
-    display: flex;
-    justify-content: center;
-    width: 100%;
 }
 
 .hr1 {
@@ -33,6 +24,17 @@ header{
 
 .imgsection img{
   width: 30%;
+}
+
+
+
+
+/********************* /Body ************************************/
+/********************* Header ************************************/
+
+header{
+  /*width:100%;*/
+  /*display: flex;*/
 }
 
 
@@ -57,8 +59,20 @@ h1 {
   font-family: cursive;
 }
 
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+/********************* /Header ************************************/
+
+/********************* Footer ************************************/
+
 footer {
   height: 80px;
   background-color: lightgrey;
   border-top: 1px dashed grey;
 }
+/********************* /Footer ************************************/
