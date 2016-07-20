@@ -27,9 +27,37 @@ body {
 }
 
 
-
-
 /********************* /Body ************************************/
+
+
+/*********************************************************************/
+/********************* projetahmed ************************************/
+/*********************************************************************/
+.amed {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 100%;
+}
+
+.bordure {
+  border: 1px solid grey;
+  width: 30%;
+  background-color: lightgrey;
+  text-align: center;
+  padding: 80px 0;
+}
+
+.ulliens {
+  list-style-type: none;
+}
+
+
+/********************* /projetahmed ************************************/
+
+
+
+
 /********************* Header ************************************/
 
 header{
