@@ -146,20 +146,44 @@ footer {
 .msg {
   display: flex;
   justify-content: center;
-  width: 100%
+  flex-wrap: wrap;
+  margin-top: 50px;
 }
 
 form {
-  flex-basis: 100px;
+  margin: 0;
+  padding: 0;
+  /*border: 2px dashed red;*/
+  outline: 0;
+  font-size: 100%;
+  background: transparent;
 }
 
 input {
-  width: 30%;
+  width: 80%;
+  border: 1px dashed #BD4147;
 }
 
 label {
+  display: block;
+  width: 150%;
 
 }
 
+legend {
+}
+
+textarea {
+  border: 1px dashed #BD4147;
+}
+
+.envoy {
+  background-color: lightgrey;
+}
+
+.envoy:hover {
+  background-color: grey;
+  border: 2px solid #BD4147;
+}
 
 /**************************************ABOUT******************************************/
