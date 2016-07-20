@@ -148,16 +148,16 @@ footer {
   justify-content: center;
   flex-wrap: wrap;
   margin-top: 50px;
+  width: 110%;
 }
 
-form {
+/*form {
   margin: 0;
   padding: 0;
-  /*border: 2px dashed red;*/
   outline: 0;
   font-size: 100%;
   background: transparent;
-}
+}*/
 
 input {
   width: 80%;
@@ -187,3 +187,16 @@ textarea {
 }
 
 /**************************************ABOUT******************************************/
+
+
+/*======================================MEDIA QUIERIES===================================================*/
+
+
+/*=======================================SMARTPHONE===================================================*/
+
+@media screen and (max-width:768px) {
+
+  .msg {
+    width: 150%;
+  }
+}
